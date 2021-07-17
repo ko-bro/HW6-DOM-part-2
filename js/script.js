@@ -1,7 +1,5 @@
 let figure = document.querySelector('.figure');
 
-let shape = document.getElementById('figSelect').value;
-
 figSelect.addEventListener('change', function (selection) {
     figure.className = selection.target.value;
 });
